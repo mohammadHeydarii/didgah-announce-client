@@ -1,0 +1,11 @@
+.backgroundLogo {
+  width: 369px;
+  height: 247px;
+  background-color: blue;
+  border-radius: 50%;
+  transform: rotate(-478deg);
+  position: fixed;
+  right: -87px;
+  top: -168px;
+  z-index: 2;
+}
