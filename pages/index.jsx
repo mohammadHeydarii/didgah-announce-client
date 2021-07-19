@@ -1,6 +1,5 @@
 import Head from "next/head";
-
-import HeaderPartial from "../components/Partials/HeaderPartial";
+import ContentLayout from "../components/Layouts/ContentLayout";
 
 import styles from "../styles/Home.module.css";
 
@@ -13,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HeaderPartial />
+      <ContentLayout />
     </div>
   );
 }
