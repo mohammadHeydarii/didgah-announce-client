@@ -1,0 +1,32 @@
+.customBtn {
+  background-color: #fff;
+  border: 2px solid #5454e6;
+  border-radius: 30px;
+  color: #5454e6;
+
+  box-shadow: -3px 3px 20px rgba(19, 14, 14, 0.5);
+  text-align: center;
+  padding: 1px 30px;
+  margin-bottom: 20px;
+  font-family: "IranSansWeb1";
+}
+
+@media (min-width: 450px) {
+  .customBtn {
+    background-color: #fff;
+    border: 2px solid #5454e6;
+    border-radius: 30px;
+    color: #5454e6;
+    white-space: nowrap;
+
+    box-shadow: -3px 3px 20px rgba(19, 14, 14, 0.5);
+    text-align: center;
+    padding: 1px 30px;
+    margin-bottom: 20px;
+    font-family: "IranSansWeb1";
+  }
+}
+
+.customBtn:hover {
+  box-shadow: none;
+}
