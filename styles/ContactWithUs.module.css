@@ -2,4 +2,6 @@
   position: fixed;
   top: 4%;
   left: 16%;
+  font-family: "IranSansWeb1";
+  z-index: 3;
 }

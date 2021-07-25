@@ -5,15 +5,37 @@
   border-radius: 50%;
   transform: rotate(-478deg);
   position: fixed;
-  right: -87px;
-  top: -168px;
+  right: -107px;
+  top: -190px;
   z-index: 2;
 }
 
 .didgahLogo {
   position: fixed;
-  right: -10px;
+  right: -15px;
   top: -38px;
   z-index: 3;
-  width: 190px;
+  width: 180px;
+}
+
+@media (min-width: 350px) {
+  .backgroundLogo {
+    width: 369px;
+    height: 247px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: rotate(-478deg);
+    position: fixed;
+    right: -87px;
+    top: -168px;
+    z-index: 2;
+  }
+
+  .didgahLogo {
+    position: fixed;
+    right: -10px;
+    top: -38px;
+    z-index: 3;
+    width: 190px;
+  }
 }
