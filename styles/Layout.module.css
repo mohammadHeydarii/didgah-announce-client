@@ -1,0 +1,9 @@
+.grid {
+  height: 75px;
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    height: auto;
+  }
+}
